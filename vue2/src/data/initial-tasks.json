@@ -1,0 +1,5 @@
+[
+  { "id": 1, "title": "Read books", "completed": false },
+  { "id": 2, "title": "Complete one course on Udemy", "completed": true },
+  { "id": 3, "title": "Solve algorithm problems", "completed": false }
+]

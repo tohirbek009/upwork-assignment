@@ -1,0 +1,57 @@
+.container {
+  width: 100%;
+  height: inherit;
+  padding: 0 1rem;
+}
+
+.container-centered {
+  width: 100%;
+  height: inherit;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.router-link {
+  text-decoration: none;
+}
+
+.button {
+  border: none;
+  outline: none;
+  background: none;
+
+  &:hover {
+    background: $grayLight;
+  }
+
+  &:active {
+    filter: brightness(0.8);
+  }
+}
+
+.app-button {
+  height: 2.75rem;
+  padding: 1rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  background-color: $success;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    filter: brightness(0.8);
+  }
+}
