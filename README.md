@@ -18,7 +18,7 @@ Project is created with:
 To run Vue2 TodoList project, install it locally using yarn:
 
 ```
-$ cd vue2-todo-list
+$ cd vue2
 $ yarn install
 $ yarn serve
 
@@ -29,7 +29,7 @@ $ yarn serve
 To run Vue3 TodoList project, install it locally using yarn:
 
 ```
-$ cd vue3nuxt-todo-list
+$ cd vue3-nuxt
 $ yarn install
 $ yarn dev
 
